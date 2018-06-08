@@ -11,8 +11,8 @@ body
 #container
 {
 	padding: 0;
-	margin: 0 ;
-#	background: #fff;
+	margin: 0 auto;
+	width: 60%;
 	font-family: sans-serif;
 }
 
@@ -66,8 +66,8 @@ body
 	height: 400px;
 	float: left;
 	padding: 0%;
-	margin: 1%;
-	width: 64%;
+	margin: 1% 0;
+	width: 100%;
 	background-color: #f4fcff;
 	border: 1px solid #999999;
 	-webkit-border-radius: 25px 0px 25px 0px;
@@ -87,8 +87,7 @@ body
 div.element
 {
 	float: left;
-	width: 31%;
-	min-width: 400px;
+	width: 45%;
 	height: 400px;
 	overflow-y: scroll;
 	margin: 1%;
@@ -100,6 +99,10 @@ div.element
 	-webkit-box-shadow: 5px 3px 3px #0a182e;
 	box-shadow: 5px 3px 3px #0a182e;
 	opacity: 0.8;
+}
+
+div.element:nth-child(odd){
+	float: right;
 }
 
 div.element img
